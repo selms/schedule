@@ -1,6 +1,6 @@
 import { FETCH_COURSES } from './types';
 
-function fetchCourses() {
+export function fetchCourses() {
     return {
         type: FETCH_COURSES,
         payload: [
@@ -15,7 +15,37 @@ function fetchCourses() {
             {
                 title: "UX for Developers",
                 description: "This User Experience (UX) course examines how to develop a system for approaching application development and enhancing the experience for users"
-            }
+            },
+            {
+                title: "Problem Solving",
+                description: "",
+            },
+            {
+                title: "UML for Developers",
+                description: "",
+            },
+            {
+                title: "Algorithm Bootcamp",
+                description: "",
+            },
+            {
+                title: "Introduction to Programming with Python",
+                description: "",
+            },
+            {
+                title: "TypeScript Development",
+                description: "",
+            },
+            {
+                title: "Introduction to JavaScript",
+                description: "",
+            },
+            {
+                title: "Dissecting Rails 5",
+                description: "",
+            },
+            
+            
         ]
         
     }
